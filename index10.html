@@ -1,31 +1,30 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
-<html>
-<head>
-<title>アイエスシー販売</title>
-</head>
 
-<frameset rows="10%,80%,10%">
-<frame src="example_a.html">
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mode-viewerテスト</title>
+    <!-- Import the component -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
+    <title>アイエスシーショッピング</title>
 
-        <frameset cols="100,*,100">
-        <frame src="example_a.html">
-
-                <frameset rows="50%,50%">
-                <frame src="example_b.html">
-                <frame src="example_a.html">
-                </frameset>
-
-        <frame src="example_a.html">
-        </frameset>
-
-<frame src="example_a.html">
-
-<noframes>
-<body>
-<p>フレームの代替内容</p>
-</body>
-</noframes>
-
-</frameset>
-
+  </head>
+  <body>
+    <model-viewer
+      src="./src/archive/model.gltf"
+      ios-src="./src/PCmodel12346.usdz"
+      alt="A 3D model"
+      auto-rotate
+      camera-controls
+      ar
+    ></model-viewer>
+  </body>
 </html>
