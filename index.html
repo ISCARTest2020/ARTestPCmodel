@@ -5,24 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mode-viewerテスト</title>
-    <!-- Import the component -->
-    <script
-      type="module"
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
-    ></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <model-viewer
-      src="./src/archive/model.gltf"
-      ios-src="./src/PCmodel12346.usdz"
-      alt="A 3D model"
-      auto-rotate
-      camera-controls
-      ar
-    ></model-viewer>
+  <div class="base">
+    <div class="class1">
+      <iframe src="index10.html" width="100%" height="100%"></iframe>
+    </div>
+    <div class="class2">
+      <iframe src="right1.html" width="100%" height="40%"></iframe>
+      <iframe src="right2.html" width="100%" height="60%"></iframe>
+    </div>
+  </div>
   </body>
 </html>
