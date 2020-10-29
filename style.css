@@ -51,3 +51,7 @@
    div.ta3 {text-align: justify;}
 -->
 </style>
+
+header#sample {
+　position:fixed;
+}
