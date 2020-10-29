@@ -13,7 +13,6 @@
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
     ></script>
   </head>
-  <center>
   <body>
     <model-viewer
       src="./src/archive/model.gltf"
@@ -28,5 +27,16 @@
   <body>
     右下アイコンタップでサンプルを表示
   </body>
-    </center>
+  <form>
+    <span class="fs11">商品のカラー</span><br>
+     <label><input type="radio" name="radio">シルバー</label>
+      <label><input type="radio" name="radio">ゴールド</label>
+      <label><input type="radio" name="radio">スペースグレイ</label>
+      <br>
+     <input type="text" maxlength="5" oninput="value = value.replace(/[^0-9]+/i,'');" />
+     <span class="fs11">個を注文する<br></span>
+  <label>
+  <input type="submit" value="カートに入れる">
+  </label>
+    </form>
 </html>
