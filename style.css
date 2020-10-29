@@ -10,19 +10,19 @@
 }
 .class1 {
   width: 100%;
-  height: 10%;
+  height: 11%;
 }
  
 .class2 {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 120%;
+  height: 117%;
 }
 
 .class3 {
   width: 100%;
-  height: 10%;
+  height: 12%;
 }
 
 <style type="text/css">
