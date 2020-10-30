@@ -16,10 +16,12 @@
 .class2 {
   display: flex;
   flex-direction: row;
+  width: 65%;
   height: 74%;
 }
 
 .class3 {
+  width:35%
   flex-direction: column;
 }
 
