@@ -1,7 +1,6 @@
 .base {
   display: flex;
   flex-direction: column;
-  width: 100vw;
   height: 100vh;
 }
 .class0 {
@@ -16,7 +15,6 @@
 .class2 {
   display: flex;
   flex-direction: row;
-  width: 100vw;
   height: 74%;
 }
 
