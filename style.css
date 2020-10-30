@@ -56,6 +56,11 @@ header#sample {
 　position:fixed;
 }
 
+.header {
+color:#000000;
+background-color:#DDDDDD;
+}
+
 .title {
 color:ffffff;
 background-color:#0000BB;
