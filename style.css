@@ -55,3 +55,8 @@
 header#sample {
 　position:fixed;
 }
+
+.title {
+color:ffffff;
+background-color:#0000BB;
+}
