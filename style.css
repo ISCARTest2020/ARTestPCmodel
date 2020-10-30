@@ -16,7 +16,6 @@
 .class2 {
   display: flex;
   flex-direction: row;
-  width: 55%;
   height: 77%;
 }
 
@@ -24,7 +23,6 @@
   display: flex;
   flex-direction: column;
   width: 45%;
-  height: 65%;
 }
 .class4 {
   width: 45%;
