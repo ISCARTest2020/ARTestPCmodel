@@ -62,3 +62,7 @@ header#sample {
 color:#ffffff;
 background-color:#FF9900;
 }
+
+html, body{
+  overflow: hidden;
+}
