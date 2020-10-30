@@ -10,6 +10,8 @@
 .class1 {
   width: 100%;
   height: 11%;
+  color:#ffffff;
+  background-color:#0000BB;
 }
  
 .class2 {
@@ -59,11 +61,6 @@ header#sample {
 .header {
 color:#000000;
 background-color:#DDDDDD;
-}
-
-.title {
-color:#ffffff;
-background-color:#0000BB;
 }
 
 .buybutton{
