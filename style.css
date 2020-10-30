@@ -62,6 +62,12 @@ background-color:#DDDDDD;
 }
 
 .title {
-color:ffffff;
+color:#ffffff;
+background-color:#0000BB;
+}
+
+.buybutton{
+
+color:#FF9900;
 background-color:#0000BB;
 }
