@@ -1,3 +1,5 @@
+@media print, screen and (min-width: 640px) {
+
 .base {
   display: flex;
   flex-direction: column;
@@ -67,4 +69,5 @@ html {
 } 
 body{
   overflow: hidden;
+}
 }
