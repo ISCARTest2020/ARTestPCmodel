@@ -71,7 +71,7 @@ background-color:#FF9900;
 }
 
 html {
-	overflow: auto;
+	overflow: scroll;
 	
 	  width: 100%;
 } 
