@@ -1,5 +1,13 @@
-@media print, screen and (min-width: 1280px) {
-
+@media screen and(max-width: 480px) {
+    img {
+    border: 0;
+    }
+    }
+@media screen and(min-width: 1280px) {
+    img {
+    border: 1px solid red;
+    }
+}
 .base {
   display: flex;
   flex-direction: column;
@@ -69,5 +77,4 @@ html {
 } 
 body{
   overflow: hidden;
-}
 }
