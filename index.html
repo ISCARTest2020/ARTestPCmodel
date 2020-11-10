@@ -5,72 +5,67 @@
   <title>アイエスシー3Dモデル サンプル販売</title>
   <!-- StyleSheet -->
  
-<link rel="stylesheet" media="(max-width: 640px)" href="style_mobile.css">
+  <link rel="stylesheet" media="(max-width: 640px)" href="style_mobile.css">
   <link rel="stylesheet" media="(min-width: 1280px)" href="style_pc.css">
   <!-- inital scale -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-  
-   <!-- Import the component -->
-    <script
-      type="module"
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
-    ></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- Import the component -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js" >
+  </script>
   
 </head>
 <body>
   
-  <div class="base">
-    <div class="class0" >
+ <div class="base">
+  <div class="class0" >
     <header id="sample">
       <span class="fs13">アイ・エス・シー販売サイト</span>
       <div class="ta0">
         <form>
-  <label>
-  <input type="submit" value="ホーム">
-  </label>
-  
-  <label>
-  <input type="submit" value="オススメ商品">
-  </label>
-     <label>
-  <input type="submit" value="ジャンルから探す">
-  </label>
-     
-     <label>
-  <input type="submit" value="買い物カゴ">
-  </label>
          <label>
-  <input type="submit" value="履歴">
-  </label>
+          <input type="submit" value="ホーム">
+         </label>
          <label>
-  <input type="submit" value="お問い合わせ">
-  </label>
+          <input type="submit" value="オススメ商品">
+         </label>
+         <label>
+          <input type="submit" value="ジャンルから探す">
+         </label>
+         <label>
+          <input type="submit" value="買い物カゴ">
+         </label>
+         <label>
+          <input type="submit" value="履歴">
+         </label>
+         <label>
+          <input type="submit" value="お問い合わせ">
+         </label>
         </form>
-  <input type="search" autocomplete="on" list="list">
-          <!-- 候補を表示 -->
-         <datalist id="list">
-          <option value="PC">
-          <option value="3Dモデル">
-          <option value="Mac">
-          <option value="ゲーミングPC">
-        </datalist>
-
-      <input type="submit" value="検索"></div>
-      </header>
-    </div>
-      <div class="class1">
-      <center><span style = "color:#ffffff; font-size: xx-large;"> Macbook Air 13.3inch<br>(シルバー・ゴールド・スペースグレイ)</span></center>
+       <input type="search" autocomplete="on" list="list">
+       <!-- 候補を表示 -->
+       <datalist id="list">
+        <option value="PC">
+        <option value="3Dモデル">
+        <option value="Mac">
+        <option value="ゲーミングPC">
+       </datalist>
+      <input type="submit" value="検索">
      </div>
-      <div class="class2">
-          <center><p><img src="MacbookAir.jpg" alt="Macbook" width="250" height="150"></p></center>
-  <center><p><img src="Macbookcolor.jpg" alt="color" width="420" height="150"></p></center>
-     </div>
-     <div class="class2">   
-          <model-viewer
+    </header>
+   </div>
+   <div class="class1">
+    <center>
+     <span style = "color:#ffffff; font-size: xx-large;"> Macbook Air 13.3inch<br>(シルバー・ゴールド・スペースグレイ)</span>
+    </center>
+   </div>
+   <div class="class2">
+    <center><p><img src="MacbookAir.jpg" alt="Macbook" width="250" height="150"></p></center>
+    <center><p><img src="Macbookcolor.jpg" alt="color" width="420" height="150"></p></center>
+   </div>
+   <div class="class2">   
+    <model-viewer
       src="./src/archive/model.gltf"
       ios-src="./src/PCmodel12346.usdz"
       alt="A 3D model"
@@ -78,31 +73,60 @@
       camera-controls
       ar
       width="500" height="300"
-    ></model-viewer>
-    右下アイコンタップでサンプルを表示<br>
-  <form>
+    >
+    </model-viewer>
+   右下アイコンタップでサンプルを表示<br>
+   <form>
     <span class="fs12">商品のカラー</span><br>
     <br>
     <span class="fs10">
      <label><input type="radio" name="radio">シルバー</label>
-      <label><input type="radio" name="radio">ゴールド</label>
-      <label><input type="radio" name="radio">スペースグレイ</label>
-      </span>
-      <br>
+     <label><input type="radio" name="radio">ゴールド</label>
+     <label><input type="radio" name="radio">スペースグレイ</label>
+    </span><br>
     <br>
     <span class="fs12">注文数量</span><br>
-     <input type="text" maxlength="5" oninput="value = value.replace(/[^0-9]+/i,'');" />
-     <span class="fs11">個を注文する<br></span>
-  <label>
-    <br>
-  <input type="submit" value="カートに入れる">
-  </label>
-    </form>
-     </div>
-       <div class="class2">
-          <iframe src="left.html"></iframe><br>
-      </div>
-    </div>
+    <input type="text" maxlength="5" oninput="value = value.replace(/[^0-9]+/i,'');" />
+    <span class="fs11">個を注文する<br></span>
+     <label>
+      <br>
+      <input type="submit" value="カートに入れる">
+     </label>
+   </form>
   </div>
+  <div class="class2">
+   <span class="fs12"> 販売元:Apple </span><br>
+   <br>
+   <span class="fs11"style = "color:#FF9900;"> ★★★★★</span><span class="fs10" style = "color:#FF0000;">-100人の評価有り</span>
+    <label>
+     <input type="submit" value="レビューを見る">
+    </label><br>
+   <span class="fs12">Price:</span><span class="fs13" style = "color:#FF0000;">￥91,800円</span><span class="fs10">(税別)</span><br>
+   <span class="fs11"style = "color:#FF0000;">Point:918pt</span><br>
+   <br>  
+   <span class="fs12"style = "color:#3366FF;">在庫有り</span><br>
+   <br> 
+   <span class="fs11">PC搭載SPEC<br></span>
+   <span class="fs10">
+       CPU：Intel Core i7<br>
+       メモリ：8GB<br>
+       グラフィックボード：Intel(R)HDGraphicsFamily(1792MB)<br>
+   </span>
+   <br>
+   <div class="ta2">
+    <form>
+     <right>
+      <label>
+       <input type="submit" value="カートを確認する" style="color:#ffffff; background-color:#FF9900;">
+      </label>
+      <label>
+       <input type="submit" value="商品を購入する" style="color:#ffffff; background-color:#FF9900;" onclick="alert('商品購入画面へ移動しますか?');">
+      </label>
+     </right>
+    </form>
+   </div>
+  </div>
+ </div>
+</div>
 </body>
 </html>
