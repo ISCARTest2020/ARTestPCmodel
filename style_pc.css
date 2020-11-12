@@ -72,10 +72,6 @@ html {
 body{
   overflow: hidden;
 }
-p{
-  width: 500px;
-}
-
 p.w-nomal{
   word-wrap: normal;
 }
