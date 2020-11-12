@@ -25,7 +25,17 @@
 .class3 {
   display: flex;
   flex-direction: column;
-  width: 33.3%;
+  width: 40%;
+}
+.class4 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.class5 {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
 }
 
 
