@@ -72,4 +72,27 @@ html {
 body{
   overflow: hidden;
 }
+p{
+  width: 500px;
+}
+
+p.w-nomal{
+  word-wrap: normal;
+}
+
+p.w-break{
+  word-wrap: break-all;
+}
+ 
+p.b-nomal{
+  word-break: normal;
+}
+ 
+p.b-break{
+  word-break: break-all;
+}
+ 
+p.b-keep{
+  word-break: keep-all;
+}
 }
