@@ -82,7 +82,7 @@ width /***/:auto;
   width: 100%;
   background-color:#0000BB;
 	
-  margin-top: 75px;
+  margin-top: 80px;
 	float: none;
 }
  
@@ -93,6 +93,9 @@ width /***/:auto;
   width: 100%;
 }
 .class4 {
+  width: 100%;
+}
+.class5 {
   width: 100%;
   margin-botom:27px;
 }
