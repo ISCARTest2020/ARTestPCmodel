@@ -24,7 +24,7 @@ margin-top: 0;
 z-index: 1;
 }
 .area {
-  width: 500px;
+  width: 600px;
   margin: auto;
   flex-wrap: wrap;
   display: flex;
