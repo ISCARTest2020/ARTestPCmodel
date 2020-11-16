@@ -19,9 +19,9 @@
 <body>
   
  <div class="base">
-  <div class="class0" >
     <header id="header02">
       <span class="fs13">テストサイト</span>
+      <div class="ta2">
       <div class="area">
     <input type="radio" name="tab_name" id="tab1" checked>
     <label class="tab_class" for="tab1">ホーム</label>
@@ -36,7 +36,18 @@
     <input type="radio" name="tab_name" id="tab6" >
     <label class="tab_class" for="tab6">お問い合わせ</label>
   </div>
+        </div>
+      <input type="search" autocomplete="on" list="list">
+       <!-- 候補を表示 -->
+       <datalist id="list">
+        <option value="PC">
+        <option value="3Dモデル">
+        <option value="Mac">
+        <option value="ゲーミングPC">
+       </datalist>
+      <input type="submit" value="検索">
     </header>
+  <div class="class0" >
    </div>
    <div class="class1">
     <center>
