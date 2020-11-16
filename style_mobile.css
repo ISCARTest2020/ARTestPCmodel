@@ -82,7 +82,7 @@ width /***/:auto;
   width: 100%;
   background-color:#0000BB;
 	
-  margin-top: 70px;
+  margin-top: 75px;
 	float: none;
 }
  
@@ -94,8 +94,22 @@ width /***/:auto;
 }
 .class4 {
   width: 100%;
+	margin-botom:30px;
 }
+#footer02{
+    background-repeat: repeat-x;
+    background-position: 0px 50px;
+    background-color: #DDDDDD;
+    width: 100%;
+    clear: both;
+    text-align: right;
+    padding: 0px ;
 
+    position: absolute;	
+    margin:0;
+    padding: 0px;
+    bottom: 0; /*下に固定*/
+}
 <style type="text/css">
    <!--
     .fs8 {font-size: xx-small;}
@@ -139,16 +153,7 @@ body{
 	padding: 0px;
 
 }
-footer{
-    width: 100%;
-    background-color: #89c7de;
-    color: #fff;
-    text-align: right;
-    padding: 30px 0;
 
-    position: absolute;/*←絶対位置*/
-    bottom: 0; /*下に固定*/
-}
 p.w-nomal{
   word-wrap: normal;
 }
