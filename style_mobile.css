@@ -94,16 +94,16 @@ width /***/:auto;
 }
 .class4 {
   width: 100%;
-	margin-botom:30px;
+  margin-botom:27px;
 }
 #footer02{
     background-repeat: repeat-x;
     background-position: 0px 50px;
     background-color: #DDDDDD;
     width: 100%;
+    height: 27px;
     clear: both;
     text-align: right;
-    padding: 0px ;
 
     position: absolute;	
     margin:0;
