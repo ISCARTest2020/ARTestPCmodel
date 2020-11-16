@@ -24,7 +24,6 @@ position: fixed;
 	padding: 0px;
     top: 0;
     left:0;
-margin-top: 100px;
 z-index: 1;
 }
 .area {
@@ -82,6 +81,8 @@ width /***/:auto;
 .class1 {
   width: 100%;
   background-color:#0000BB;
+	
+  margin-top: 70px;
 	float: none;
 }
  
