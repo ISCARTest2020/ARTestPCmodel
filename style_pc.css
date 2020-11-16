@@ -8,7 +8,7 @@
 #header02 {
 background-repeat: repeat-x;
 background-position: 0px 50px;
-	
+	margin:0;
   background-color:#DDDDDD;
 width: 100%;
 height: 112px;
@@ -128,6 +128,7 @@ html {
 } 
 body{
   overflow: hidden;
+	margin:0;
 }
 p.w-nomal{
   word-wrap: normal;
