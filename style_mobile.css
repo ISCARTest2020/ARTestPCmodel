@@ -82,7 +82,7 @@ width /***/:auto;
   width: 100%;
   background-color:#0000BB;
 	
-  margin-top: 80px;
+  margin-top: 86px;
 	float: none;
 }
  
@@ -107,8 +107,7 @@ width /***/:auto;
     height: 27px;
     clear: both;
     text-align: right;
-
-    position: absolute;	
+    position: fixed;
     margin:0;
     padding: 0px;
     bottom: 0; /*下に固定*/
