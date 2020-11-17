@@ -159,4 +159,8 @@ p.b-break{
 p.b-keep{
   word-break: keep-all;
 }
+/* 吹き出し本体 */
+.balloon{
+ opacity: 0;
+}
 }
