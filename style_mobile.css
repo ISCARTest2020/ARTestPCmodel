@@ -179,13 +179,12 @@ p.b-keep{
 }
 /* 吹き出し本体 */
 .balloon{
-  heigth:10%;
-	  width:10%;
+  width:10%;
   position: relative;
   top:87px; 
 　left:55%;
   background-color: #ecadff;
-　z-index: 1;
+	border-radius: 10px;
 }
 
 }
