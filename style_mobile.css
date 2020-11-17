@@ -179,7 +179,6 @@ p.b-keep{
 }
 /* 吹き出し本体 */
 .balloon{
-  width:10%;
   position: relative;
   top:87px; 
 　left:55%;
