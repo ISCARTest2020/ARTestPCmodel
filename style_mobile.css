@@ -182,7 +182,7 @@ p.b-keep{
   position: relative;
   width:100%;
   top:87px; 
-  left:55%;
+  margin-left:250px;
   background-color: #ecadff;
 	border-radius: 10px;
 }
