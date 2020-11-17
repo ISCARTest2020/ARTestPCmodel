@@ -186,18 +186,4 @@ p.b-keep{
 　left:100px;
 }
 
-.balloon::before{
-  content: '';
-  position: absolute;
-  display: block;
-  width: 0;
-  height: 0;
-  left: 20px;
-  bottom: -15px;
-  border-top: 15px solid #fff3ad;
-  border-right: 15px solid transparent;
-  border-left: 15px solid transparent;
-}
-
-
 }
