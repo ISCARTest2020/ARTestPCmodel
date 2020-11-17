@@ -85,7 +85,10 @@ input:checked + .tab_class + .content_class {
   flex-direction: column;
   width: 35%;
 }
-
+.icon{
+width:35px;
+height:35px;
+}
 
 
 <style type="text/css">
