@@ -185,5 +185,9 @@ p.b-keep{
   background-color: #ecadff;
 	border-radius: 10px;
 }
-
+.balloon1{
+  position: relative;
+  background-color: #ecadff;
+	border-radius: 10px;
+}
 }
