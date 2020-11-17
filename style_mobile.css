@@ -67,6 +67,10 @@ max-width: 100%;
 height: auto;
 width /***/:auto;
 }
+icon{
+width:35px;
+height:35px;
+}
 .base {
   display: flex;
   flex-direction: column;
