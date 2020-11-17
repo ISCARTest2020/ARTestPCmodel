@@ -182,6 +182,8 @@ p.b-keep{
   position: relative;
   padding: 20px;
   background-color: #ecadff;
+　top:100px; 
+　left:100px;
 }
 
 .balloon::before{
