@@ -180,9 +180,9 @@ p.b-keep{
 /* 吹き出し本体 */
 .balloon{
   position: relative;
-  background-color: #ecadff;
-　top:87px; 
+  top:87px; 
 　left:230px;
+  background-color: #ecadff;
 　z-index: 1;
 }
 
