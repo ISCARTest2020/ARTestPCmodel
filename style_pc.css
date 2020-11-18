@@ -122,6 +122,7 @@ height:35px;
 p.box {
    border-top: 1px dotted black;    /* 上側の1本線 */
    border-bottom: 1px dotted black; /* 下側の1本線 */
+	word-wrap: normal;
 }
 header#sample {
 　position:fixed;
