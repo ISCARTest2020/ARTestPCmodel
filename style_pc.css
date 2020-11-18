@@ -106,6 +106,7 @@ height:35px;
     .fs11 {font-size: large;}
     .fs12 {font-size: x-large;}
     .fs13 {font-size: xx-large;}
+	.fs15{font-size: 13px;}
    -->
 </style>
 
@@ -117,7 +118,10 @@ height:35px;
    div.ta3 {text-align: justify;}
 -->
 </style>
-
+p.box {
+   border-top: 1px dotted black;    /* 上側の1本線 */
+   border-bottom: 1px dotted black; /* 下側の1本線 */
+}
 header#sample {
 　position:fixed;
 }
