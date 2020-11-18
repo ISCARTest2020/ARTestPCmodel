@@ -59,7 +59,6 @@ input:checked + .tab_class + .content_class {
 }
 .class1 {
   width: 100%;
-  height: 15%;
   background-color:#0000BB;
 }
 
@@ -107,7 +106,7 @@ height:35px;
     .fs12 {font-size: x-large;}
     .fs13 {font-size: xx-large;}
 	.fs15{font-size: 13px;}
-	.fs16 {font-size: 12px;}
+	.fs16 {font-size: 32px;}
    -->
 </style>
 
@@ -120,8 +119,8 @@ height:35px;
 -->
 </style>
 p.box {
-   border-top: 1px dotted black;    /* 上側の1本線 */
-   border-bottom: 1px dotted black; /* 下側の1本線 */
+   border-top: 1px dotted #000;    /* 上側の1本線 */
+   border-bottom: 1px dotted #000; /* 下側の1本線 */
 	word-wrap: normal;
 }
 header#sample {
@@ -171,8 +170,5 @@ p.b-keep{
 /* 吹き出し本体 */
 .balloon{
  opacity: 0;
-}
-.balloon1{
-  background-color: #FF9900;
 }
 }
