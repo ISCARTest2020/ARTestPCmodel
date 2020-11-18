@@ -132,8 +132,8 @@ height:35px;
    -->
 </style>
 p.box {
-   border-top: 1px dotted black;    /* 上側の1本線 */
-   border-bottom: 1px dotted black; /* 下側の1本線 */
+   border-top: 1px dotted #000;    /* 上側の1本線 */
+   border-bottom: 1px dotted #000; /* 下側の1本線 */
    word-wrap: normal;
 }
 <style type="text/css">
@@ -197,9 +197,5 @@ p.b-keep{
   background-color: #ecadff;
 	border-radius: 10px;
 }
-.balloon1{
-  position: relative;
-	width:100%;
-  background-color: #FF9900;
-}
+
 }
