@@ -20,11 +20,24 @@
   
  <div class="base">
     <header id="header02">
-      <div class="ta0">
+      <p class="w-nomal">
+      <div class="ta1">
       <span class="fs13">テストサイト</span>
       </div>
+      <div class="ta0">
+       <input type="submit" value="カートを見る" style="color:#ffffff; background-color:#FF9900;">
+       <input type="search" autocomplete="on" list="list">
+       <!-- 候補を表示 -->
+       <datalist id="list">
+        <option value="PC">
+        <option value="3Dモデル">
+        <option value="Mac">
+        <option value="ゲーミングPC">
+       </datalist>
+      <input type="submit" value="検索">
+      </p>
       <nav>
-<div class="ta2">
+<div class="ta1">
       <div class="area">
     <a href="index.html"><label class="tab_class" for="tab1">ホーム</label></a>
     <a href="index.html"><label class="tab_class" for="tab2">オススメ商品</label></a>
@@ -74,8 +87,8 @@
     <input type="text" maxlength="5" oninput="value = value.replace(/[^0-9]+/i,'');" />
     <span class="fs11">個を注文する<br></span>
      <label>
-      <br>
-      <input type="submit" value="カートに入れる">
+      <input type="submit" value="カートに入れる" style="color:#ffffff; background-color:#FF9900;">
+      <input type="submit" value="商品を購入する" style="color:#ffffff; background-color:#FF9900;" onclick="alert('商品購入画面へ移動しますか?');">
      </label>
   </div>
      <div class="class5">
