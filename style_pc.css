@@ -24,15 +24,17 @@ z-index: 1;
   display: flex;
 }
 .tab_class {
-  width: calc(100%/5);
+  width: calc(100%/7);
   height: 50px;
   background-color: darkgrey;
   line-height: 50px;
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   display: block;
   float: left;
   order: -1;
+	border: 1px solid;
+	border-color: cadetblue;
 }
  
 input[name="tab_name"] {
