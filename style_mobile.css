@@ -33,7 +33,7 @@ z-index: 1;
   display: flex;
 }
 .tab_class {
-  width: calc(100%/8);
+  width: calc(100%/5);
   height: 50px;
   background-color: darkgrey;
   line-height: 50px;
