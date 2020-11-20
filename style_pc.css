@@ -157,9 +157,6 @@ footer{
     color: #fff;
     text-align: right;
     padding: 30px 0;
-
- position: absolute;/*←絶対位置*/
-    bottom: 0; /*下に固定*/
 }
 p.w-nomal{
   word-wrap: normal;
