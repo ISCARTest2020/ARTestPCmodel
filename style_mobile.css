@@ -31,6 +31,7 @@ z-index: 1;
   margin: auto;
   flex-wrap: wrap;
   display: flex;
+	padding:0,0;
 }
 .tab_class {
   width: calc(100%/6);
@@ -84,6 +85,7 @@ height:35px;
 	height: 100px;
   background-color:#DDDDDD;
 	float: none;
+	padding:0;
 }
 .class1 {
   width: 100%;
@@ -91,22 +93,26 @@ height:35px;
 	
   margin-top: 86px;
 	float: none;
+	padding:0,0;
 }
  
 .class2 {
   width: 100%;
-	
+	padding:0,0;
   margin-botom:27px;
 }
 .class3 {
   width: 100%;
+	padding:0,0;
 }
 .class4 {
   width: 100%;
+	padding:0,0;
 }
 .class5 {
   width: 100%;
   margin-botom:27px;
+	padding:0,0;
 }
 #footer02{
     background-repeat: repeat-x;
@@ -182,7 +188,7 @@ footer{
     background-color: #89c7de;
     color: #fff;
     text-align: center;
-    padding: 30px 0;
+    padding: 30px 25px;
 }
 p.w-nomal{
   word-wrap: normal;
