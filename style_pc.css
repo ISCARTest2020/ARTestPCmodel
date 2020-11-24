@@ -142,11 +142,9 @@ html {
 	overflow: auto;
 } 
 body{
-  overflow-y: scroll;
 　overflow-x: hidden;
 	margin: 0px auto;
 padding: 0px;
-text-align: center;
 }
 .wrapper{
     margin: 0px auto; 
