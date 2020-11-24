@@ -100,7 +100,7 @@ height:35px;
   width: 100%;
 	padding:0,0;
   margin-botom:27px;
-  margin-left: 20px;
+  
 }
 .class3 {
   width: 100%;
@@ -109,11 +109,13 @@ height:35px;
 .class4 {
   width: 100%;
 	padding:0,0;
+	margin-left: 20px;
 }
 .class5 {
   width: 100%;
   margin-botom:27px;
 	padding:0,0;
+	margin-left: 20px;
 }
 #footer02{
     background-repeat: repeat-x;
