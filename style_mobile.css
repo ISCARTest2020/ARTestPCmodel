@@ -27,14 +27,14 @@ position: fixed;
 z-index: 1;
 }
 .area {
-  width: 100%;
+  width: 360px;
   margin: auto;
   flex-wrap: wrap;
   display: flex;
 	padding:0,0;
 }
 .tab_class {
-  width: calc(100%/6);
+  width: calc(97%/5);
   height: 50px;
   background-color: darkgrey;
   line-height: 50px;
@@ -67,7 +67,7 @@ input:checked + .tab_class + .content_class {
 
 img{
 max-width: 100%;
-height: auto;
+height: 100px;
 width /***/:auto;
 }
 .icon{
@@ -100,6 +100,7 @@ height:35px;
   width: 100%;
 	padding:0,0;
   margin-botom:27px;
+  margin-left 20px
 }
 .class3 {
   width: 100%;
