@@ -128,6 +128,7 @@ p.box {
    border-top: 1px dotted #000;    /* 上側の1本線 */
    border-bottom: 1px dotted #000; /* 下側の1本線 */
 	word-wrap: normal;
+	width: 320px;
 }
 header#sample {
 　position:fixed;
