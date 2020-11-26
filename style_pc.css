@@ -153,42 +153,69 @@ padding: 0px;
     padding-bottom: 120px;/*←footerの高さ*/
     box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
 }
-.menu {
-    max-width: 600px;
+.acbox{
+  width: auto;
+  font-size:0px; /* ラベルと開く部分を分離する時は数値を入れる */
+  margin:0 10px; /* ボックス全体の位置調整 */
 }
 
-.menu a {
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    color: #000;
+.acbox label{
+  width: auto;
+  font-size: 16px; /* ラベルの文字サイズ */
+  font-weight: bold;
+  text-align: center;
+  background: #8BC34A; /* ラベルの背景色 */
+  position: relative;
+  display: block;
+  padding:8px;
+  border-radius: 4px; /* ラベルの角の丸み */
+  cursor: pointer;
+  color: #fff;
 }
 
-input {
-    display: none;
+.acbox label:hover{
+  background: #8BC34A; /* ラベルにマウスを乗せた時の背景色 */
 }
 
-.menu ul {
-    margin: 0;
-    padding: 0;
-    background :#f4f4f4;
-    list-style: none;
+.acbox input{
+  display: none;
 }
 
-.menu li {
-    height: 0;
-    overflow: hidden;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
+.acbox label:after{
+  color: #fff;
+  content:"▼"; /* ラベルのアイコン */
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -14px;
 }
 
-#menu_bar01:checked ~ #links01 li,
-#menu_bar02:checked ~ #links02 li {
-    height: 54px;
-    opacity: 1;
+.acbox input:checked ~ label::after {
+  content:"▲"; /* ラベルをクリックした後のアイコン */
+}
+
+.acbox div{
+  height: 0px;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.15s; /* 開閉スピードの設定 */
+}
+
+.acbox input:checked ~ div{
+  height: auto;
+  padding: 18px; /* 開いた部分の枠内の余白 */
+  border-radius: 0px;
+  background: #F3F4F5; /* 開いた部分の背景色 */
+  opacity: 1;
+}
+
+.acbox input:checked ~ label {
+  background: #8BC34A; /* クリック後のラベルの背景色 */
+}
+
+.acbox-under{
+  font-size: 15px; /* 開いた部分の文字サイズ */
+  color: #555555; /* 開いた部分の文字色 */
 }
 footer{
     background-color: #89c7de;
