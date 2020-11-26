@@ -65,7 +65,14 @@ input:checked + .tab_class + .content_class {
   display: block;
 }
 
-img{
+.img1{
+max-width: 100%;
+height: 100px;
+width /***/:auto;
+	margin-left:0px;
+	
+}
+.img2{
 max-width: 100%;
 height: 100px;
 width /***/:auto;
@@ -228,9 +235,9 @@ p.b-keep{
 	border-radius: 10px;
 }
 .acbox{
-  width: auto;
+  width: 350px;
   font-size:0px; /* ラベルと開く部分を分離する時は数値を入れる */
-  margin:0 10px; /* ボックス全体の位置調整 */
+  margin:0 0 35px; /* ボックス全体の位置調整 */
 }
 
 .acbox label{
