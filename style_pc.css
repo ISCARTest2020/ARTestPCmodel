@@ -164,16 +164,6 @@ padding: 0px;
     color: #000;
 }
 
-label {
-    display: block;
-    margin: 0 0 4px 0;
-    padding : 15px;
-    line-height: 1;
-    color :#fff;
-    background : green;
-    cursor :pointer;
-}
-
 input {
     display: none;
 }
