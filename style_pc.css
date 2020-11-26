@@ -93,7 +93,9 @@ input:checked + .tab_class + .content_class {
 width:35px;
 height:35px;
 }
-
+img{
+	margin-left:0px;
+}
 
 <style type="text/css">
    <!--
@@ -151,19 +153,11 @@ padding: 0px;
     padding-bottom: 120px;/*←footerの高さ*/
     box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
 }
-
-footer{
-    width: 100%;
-    background-color: #89c7de;
-    color: #fff;
-    text-align: left;
-    padding: 30px 25px;
-}
 footer{
     background-color: #89c7de;
     color: #fff;
     text-align: left;
-    padding: 30px 115px;
+    padding: 30px 300px;
 }
 .acbox{
   width: auto;
