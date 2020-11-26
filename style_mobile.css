@@ -26,6 +26,19 @@ position: fixed;
     left:0;
 z-index: 1;
 }
+#header03 {
+background-repeat: repeat-x;
+background-position: 0px 50px;
+	background-color:#DDDDDD;
+width: 100%;
+clear: both;
+position: fixed;
+	margin:0;
+	padding: 0px;
+    bottom: 0;
+    left:0;
+z-index: 1;
+}
 .area {
   width: 360px;
   margin: auto;
