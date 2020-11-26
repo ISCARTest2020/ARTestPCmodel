@@ -222,6 +222,7 @@ footer{
     color: #fff;
     text-align: left;
     padding: 30px 115px;
+    position:absolute;
 }
 p.w-nomal{
   word-wrap: normal;
