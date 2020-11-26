@@ -93,8 +93,13 @@ input:checked + .tab_class + .content_class {
 width:35px;
 height:35px;
 }
-img{
+.img1{
 	margin-left:0px;
+	
+}
+.img2{
+	margin-left:0px;
+	
 }
 
 <style type="text/css">
