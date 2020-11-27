@@ -169,6 +169,8 @@ p.box {
    div.ta1 {text-align: center;}
    div.ta2 {text-align: right;}
    div.ta3 {text-align: justify;}
+div.ta5 {text-align: right;
+         margin-right:0px;}
 -->
 </style>
 
