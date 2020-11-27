@@ -16,7 +16,7 @@
 #header02 {
 background-repeat: repeat-x;
 background-position: 0px 50px;
-	background-color:linear-gradient(to top, #DDDDDD 0% 25%, transparent 25% 75%,#DDDDDD 75% 100%);
+	background:linear-gradient(to top, #DDDDDD 0% 25%, transparent 25% 75%,#DDDDDD 75% 100%);
 width: 100%;
 clear: both;
 position: fixed;
