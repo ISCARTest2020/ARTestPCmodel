@@ -16,7 +16,7 @@
 #header02 {
 background-repeat: repeat-x;
 background-position: 0px 50px;
-	background-color:#DDDDDD;
+	background-color:linear-gradient(to top, #DDDDDD 25%, transparent 50%,#DDDDDD 25%);
 width: 100%;
 clear: both;
 position: fixed;
@@ -26,22 +26,16 @@ position: fixed;
     left:0;
 z-index: 1;
 }
-.header02 nav {
-	background-color:#DDDDDD;
-width: 100%;
-clear: both;
-position: fixed;
-    bottom: 0;
-    left:0;
-z-index: 1;
-}
-
+	
 .area {
   width: 360px;
   margin: auto;
   flex-wrap: wrap;
   display: flex;
-	padding:0,0;
+position: fixed;
+margin:0;
+padding: 0px;
+   bottom: 0;
 }
 .tab_class {
   width: calc(97%/5);
