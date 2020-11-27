@@ -29,11 +29,10 @@ z-index: 1;
 	
 .area {
   width: 360px;
-  margin: auto;
+  margin-left: 20px;
   flex-wrap: wrap;
   display: flex;
 position: fixed;
-margin:0;
 padding: 0px;
    bottom: 0;
 }
