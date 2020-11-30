@@ -17,6 +17,9 @@ height: 100px;
 clear: both;
 
 }
+	.nav{
+		background-color: #DDDDDD;
+	}
 .area {
   width: 820px;
   margin: auto;
