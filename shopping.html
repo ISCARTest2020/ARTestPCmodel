@@ -1,1 +1,133 @@
 
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>アイエスシー3Dモデル サンプル販売</title>
+  <!-- StyleSheet -->
+ 
+  <link rel="stylesheet" media="(max-width: 640px)" href="style_mobile.css">
+  <link rel="stylesheet" media="(min-width: 1280px)" href="style_pc.css">
+  <!-- inital scale -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- Import the component -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js" >
+  </script>
+  
+</head>
+<body>
+  
+ <div class="base">
+    <header id="header02">
+      <div class="ta1">
+      <span class="fs13">テストサイト</span>
+      </div> 
+      <div class="ta5">
+        <p class="w-nomal">
+       <input type="submit" value="カートを確認する" style="color:#ffffff; background-color:#FF9900;">
+       <input type="search" autocomplete="on" list="list">
+       <!-- 候補を表示 -->
+       <datalist id="list">
+        <option value="PC">
+        <option value="3Dモデル">
+        <option value="Mac">
+        <option value="ゲーミングPC">
+       </datalist>
+      <input type="submit" value="検索">
+       </p>
+     </div>
+    </header>
+   
+  <div class="class0" >
+   <nav>
+      <div class="area">
+    <label class="tab_class" for="tab1">ホーム</label>
+    <label class="tab_class" for="tab2">オススメ商品</label>
+    <label class="tab_class" for="tab3">ジャンルから</label>
+    <label class="tab_class" for="tab4">お気に入り</label>
+    <label class="tab_class" for="tab5">履歴</label>
+  </div>
+        </nav>
+   </div>
+   <div class="class1">
+    <center>
+     <span class="fs16" style = "color:#ffffff;"> Macbook Air 13.3inch(シルバー・ゴールド・スペースグレイ)</span>
+    </center>
+   </div>
+   <div class="class2">
+   <div class="class3">
+    <p><img class="img1" src="MacbookAir.jpg" alt="Macbook" width="250" height="150"></p>
+    <p><img class="img2" src="Macbookcolor.jpg" alt="color" width="420" height="150"></p>
+  
+     <div class="balloon">
+       ▼AR表示
+　　　</div>
+    <model-viewer
+      src="./src/archive/model.gltf"
+      ios-src="./src/PCmodel12346.usdz"
+      alt="A 3D model"
+      auto-rotate
+      camera-controls
+      ar
+      width="500" height="300"
+    >
+    </model-viewer>
+    <p class="w-nomal" style="border-bottom:1px dashed; border-top:1px dashed; width:330px;">
+    <img class="icon" src="icon.jpg" alt="icon" ><span class="fs15">はスマホのみでAR表示可能</span>
+     </p>
+     </div>
+   <div class="class4">
+    <span class="fs12">商品のカラー</span><br>
+    <span class="fs10">
+     <label><input type="radio" name="radio">シルバー</label>
+     <label><input type="radio" name="radio">ゴールド</label>
+     <label><input type="radio" name="radio">スペースグレイ</label>
+    </span><br>
+    <span class="fs12">注文数量</span><br>
+    <input type="text" maxlength="5" oninput="value = value.replace(/[^0-9]+/i,'');" />
+    <span class="fs11">個を注文する<br></span>
+     <label>
+      <input type="submit" value="カートに入れる" style="color:#ffffff; background-color:#FF9900;">
+      <input type="submit" value="商品を購入する" style="color:#ffffff; background-color:#FF9900;" onclick="alert('商品購入画面へ移動しますか?');">
+     </label>
+     <p class="w-nomal">
+        <span class="fs12">Price:</span><span class="fs13" style = "color:#FF0000;">￥91,800円</span><span class="fs10">(税別)</span><br>
+   <span class="fs11"style = "color:#FF0000;">Point:918pt</span><span class="fs12"style = "color:#3366FF;">在庫有り</span><br>
+      <label>
+     <span class="fs12"style = "color:#FF9900;"> ★★★★★</span><span class="fs10" style = "color:#FF0000;">-100人の評価有り</span><br>
+     <input type="submit" value="レビューを見る">
+    </label><br>
+     </p>
+  <div class="acbox"><input id="ac-1" type="checkbox" />
+<label for="ac-1">商品の情報を見る</label>
+    <div class="acbox-under">
+   <span class="fs11"> 販売元:Apple </span><br>
+   <span class="fs11">PC搭載SPEC</span><br>
+   <span class="fs10">
+       CPU：Intel Core i7<br>
+       メモリ：8GB<br>
+       グラフィックボード：Intel(R)HDGraphicsFamily(1792MB)<br>
+   </span>
+    <br>
+    </div>
+   </div>
+   </div>
+     </div>
+  
+    
+    <footer>
+      <nav>
+        <p>株式会社アイ・エス・シー<br>
+〒732-0828<br>
+広島県広島市南区京橋町３－８　賀来ビル２F<br>
+TEL : 082-261-1624 / FAX : 082-261-1625<br>
+</p>
+<a href="index.html">ホーム</a>
+</nav>
+      
+  </footer>
+  </div>
+</body>
+</html>
