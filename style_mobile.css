@@ -27,6 +27,20 @@ position: fixed;
     left:0;
 z-index: 999;
 }
+#header03 {
+background-repeat: repeat-x;
+background-position: 0px 50px;
+	background-color: #DDDDDD;
+width: 100%;
+	height:6%;
+clear: both;
+position: fixed;
+	margin:0;
+	padding: 0px;
+    top: 0;
+    left:0;
+z-index: 999;
+}
 	.class0 {
   width: 100%;
 		height: 11%;
@@ -121,7 +135,7 @@ height:35px;
 .class2 {
   width: 100%;
 	padding:0,0;
-  margin-botom:27px;
+  margin-bottom:27px;
   
 }
 .class3 {
@@ -136,10 +150,10 @@ height:35px;
 }
 .class5 {
   width: 100%;
-　margin-top: 95px;
-  margin-botom:27px;
+　margin-top: 16px;
+  margin-bottom: 27px;
 	padding:0,0;
-	
+	margin-right: 20px;
 	margin-left: 20px;
 }
 #footer02{
