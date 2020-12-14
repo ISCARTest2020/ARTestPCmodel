@@ -88,9 +88,8 @@ input:checked + .tab_class + .content_class {
 }
 .class5 {
   display: flex;
-  flex-direction: column;
-  width: 35%;
-	margin-left: 20px;
+	flex-direction: column;
+	margin-left: 265px;
 }
 .icon{
 width:35px;
